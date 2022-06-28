@@ -1,0 +1,31 @@
+<link rel="stylesheet" href="style.css">
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<html lang="en">
+  <head>
+    <!-- <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>Practice</title>
+  </head>
+  <nav class="navbar bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+  
+        <img class="navimg" src="data:image/png;base64,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" alt="" width="30" height="24">
+        <button class="btn btn-lg btn-primary">Click 1</button>
+        <button class="btn btn-lg btn-secondary">Click 2</button>
+      </a>
+    </div>
+  </nav>
+    
+
+</div>
+    <h1 class="title">Real Estate agent</h1>
+    <img class="img1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTUSsOxi7o-oM3wlZnuJiuxbCuisK_V15aew&usqp=CAU" alt="Real Estate">
+    <body>
+      <h1 class="Head1">Hello guys</h1>
+      <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    </body>
+</html>
