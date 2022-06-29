@@ -1,0 +1,12 @@
+.logo{
+    width: 120px;
+}
+.navbar-toggler toggler-example{
+    color: rgb(241, 228, 212);
+}
+.menu{
+    color: aliceblue;
+}
+.navbar-nav ms-auto{
+    color: aliceblue;
+}
